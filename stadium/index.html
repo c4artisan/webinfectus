@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const id = urlParams.get('id')
+
+setTimeout(function() {
+            window.location.href = "roblox://placeId="+id;
+        }, 0);
+</script>
+
+</body>
+</html> 
